@@ -15,13 +15,11 @@ DB_CONFIG = {
     "database": "timetable_system"
 }
 
-GROQ_API_KEY = ""
-
 
 # -------------------------------------------------------
 # LLM (Groq with LLaMA-3)
 # -------------------------------------------------------
-client = Groq(api_key=GROQ_API_KEY)
+
 
 def groq_chat(prompt):
     try:
