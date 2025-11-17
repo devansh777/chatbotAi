@@ -15,7 +15,7 @@ DB_CONFIG = {
     "database": "timetable_system"
 }
 
-GROQ_API_KEY = "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"
+GROQ_API_KEY = ""
 
 
 # -------------------------------------------------------
